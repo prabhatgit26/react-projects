@@ -1,0 +1,114 @@
+/* Reset default margins and paddings */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Full-screen background with gradient */
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+}
+
+/* Container styling */
+.container {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  padding: 2rem;
+  background: #fff;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  margin-top: 150px;
+}
+
+/* Heading styling */
+h2 {
+  color: #444444;
+  margin-bottom: 1rem;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Form input group styling */
+.input-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  color: #555;
+  font-family: 'Arial', sans-serif;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  font-size: 1.1rem;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-top: 0.3rem;
+}
+
+/* Button group styling */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 10px;
+  border: 1px solid navy;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  width: 40%;
+  color: #ffffff;
+  background-color: #9f9962;
+  margin-top: 15px;
+}
+
+.btn-submit {
+  background-color: #e5f2ff;
+  
+}
+
+.btn-submit:hover {
+  background-color: #7d7c7c;
+
+}
+
+.btn-reload {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.btn-reload:hover {
+  background-color: #777777;
+}
+
+/* Results styling */
+.results {
+  
+  margin-top: 10px;
+}
+
+h3 {
+  color: #333;
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+  font-family: 'Arial', sans-serif;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #666;
+}
