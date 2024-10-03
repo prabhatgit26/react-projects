@@ -18,3 +18,5 @@ QuantumQuake Fitness is a dynamic gym web application designed to enhance user e
 
 
 ![gym5](https://github.com/user-attachments/assets/be9cf3b1-5429-4f21-8461-35294330d3b7)
+
+![gym](https://github.com/user-attachments/assets/a5388704-2f8b-4245-8925-719f90c456ca)
